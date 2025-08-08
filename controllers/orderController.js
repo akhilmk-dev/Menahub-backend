@@ -6,5 +6,5 @@ exports.getOrders = catchAsync(async (req, res, next) => {
 });
 
 exports.createOrder = catchAsync(async(req,res,next)=>{
-
+    console.log(req.body)
 });
